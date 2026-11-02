@@ -43,3 +43,5 @@ Claude 프로젝트에서 쓸 때는 이 파일 내용을 프로젝트 지침에
 
 - 기준이 바뀌면 해당 `docs/` 파일을 고치고 `CHANGELOG.md`에 한 줄 남긴다.
 - Figma 링크는 `README.md` 바로가기와 `docs/01-screen-standards.md` 두 곳에서 관리한다.
+
+  
