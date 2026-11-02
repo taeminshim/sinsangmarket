@@ -4,15 +4,24 @@
 다루는 작업은 두 가지다: **A. 기획 변경에 따른 as-is 수정**, **B. 새로운 화면**.
 Claude 프로젝트에서 쓸 때는 이 파일 내용을 프로젝트 지침에 넣는다.
 
-## 작업 전에 읽을 문서
+## 문서는 필요한 것만 읽는다
 
-1. `docs/00-workflow.md` — 작업 절차 (A/B 모드, 조립 순서, Figma 작업 팁)
-2. `docs/01-screen-standards.md` — 라이브러리 4개(libraryKey), 화면 폭, 여백
-3. `docs/02-foundations.md` — 색·텍스트·그림자 스타일, 라운드, 표기 규칙
-4. `docs/03-components-ds.md` — 디자인 시스템 컴포넌트 이름 규칙, 폼·모달 규칙
-5. 빌더: `docs/04-components-mobile.md` 또는 `docs/05-components-pc.md`
-6. 배치 참고: `docs/06-templates.md`
-7. 다 그린 뒤: `docs/07-states-checklist.md`, `docs/08-audit.md`
+문서를 전부 읽고 시작하지 않는다. **항상 읽는 것**은 `docs/00-workflow.md` 하나이고, 나머지는 작업에서 해당 요소를 쓸 때만 읽는다.
+
+| 언제 | 읽을 문서 |
+|---|---|
+| 항상 (작업 시작) | `docs/00-workflow.md` — 절차, 조립 순서, Figma 작업 팁 |
+| 화면 폭·여백·라이브러리 key가 필요할 때 | `docs/01-screen-standards.md` (모바일/PC 해당 부분만) |
+| 색·글자·라운드·그림자 스타일을 연결할 때 | `docs/02-foundations.md` |
+| 버튼·칩·태그·폼·모달·탭을 쓸 때 | `docs/03-components-ds.md` (쓰는 종류만) |
+| 모바일에서 자주 쓰는 컴포넌트·스타일을 불러올 때 | `docs/10-keys-mobile.md` — 있는 key는 **검색하지 않고 바로 불러온다** |
+| 상품·매장 썸네일, 카드, 골격 블록을 쓸 때 | `docs/04-components-mobile.md` (PC는 `docs/05-components-pc.md`) |
+| 배치가 막막할 때만 | `docs/06-templates.md` |
+| 다 그린 뒤 | `docs/07-states-checklist.md`, `docs/08-audit.md` |
+
+- 표에 key가 있으면 그대로 쓰고, 없을 때만 `includeLibraryKeys`로 범위를 좁혀 검색한다. key가 안 먹으면 검색 결과를 따른다.
+- 새로 찾은 key는 작업 끝에 `docs/10-keys-mobile.md`(또는 PC 문서)에 추가하도록 사용자에게 제안한다.
+- `docs/09-quickstart.md`, `docs/prompts.md`는 사람이 보는 문서라서 읽지 않는다.
 
 ## 반드시 지킬 것
 
