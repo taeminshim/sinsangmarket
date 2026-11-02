@@ -53,6 +53,7 @@
 | [06-templates](docs/06-templates.md) | 화면 유형별 배치·여백 참고 |
 | [07-states-checklist](docs/07-states-checklist.md) | 상태 화면 체크리스트 |
 | [08-audit](docs/08-audit.md) | 그린 뒤 검수 (하드코딩 색·글자, 해제, 다른 라이브러리) |
+| [09-quickstart](docs/09-quickstart.md) | 팀원용 빠른 시작: Claude 세팅, 요청 순서, 문제 해결 |
 | [prompts](docs/prompts.md) | Claude에게 요청하는 문장 예시 |
 
 ## Claude로 쓰는 법 (채팅)

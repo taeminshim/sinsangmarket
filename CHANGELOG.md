@@ -2,6 +2,10 @@
 
 기준을 고치면 맨 위에 한 줄씩 남겨요. 형식: `날짜 · 바꾼 사람 · 무엇을`
 
+## 2026-11-02 · 심태민 · 팀원용 빠른 시작 가이드 추가
+
+- `docs/09-quickstart.md`: Claude 프로젝트 세팅, 요청 순서, 빠르게 쓰는 팁, 자주 생기는 문제
+
 ## 2026-11-02 · 심태민 · 첫 버전
 
 - 기준 라이브러리: [신상마켓] M_Design system Guide V1.4, [신상마켓] PC_Design system Guide V1.4, M_UI Builder, PC UI Builder
